@@ -12,3 +12,4 @@ How to run?
 
 @Todo
 ========
+- dropdown menu closing
