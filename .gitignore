@@ -2,8 +2,6 @@
 !.htaccess
 !web.config
 
-less/bootstrap
-
 # Node
 node_modules/
 .tmp/
