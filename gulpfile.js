@@ -49,7 +49,7 @@ gulp.task('production', function () {
 });
 
 gulp.task('default', function() {
-  gulp.start('less');
+  gulp.start('less', 'bower');
 });
 
 gulp.task('watch', ['less'], function() {
