@@ -20,6 +20,25 @@ gulp.task('less', function () {
     .pipe($.livereload());
 });
 
+var bootstrapLessDir = [
+        './bower_components/bootstrap/less/*',
+        './bower_components/bootstrap/less/**/*'
+    ];
+
+gulp.task('bower', function () {
+  //jQuery
+  gulp.src('./bower_components/jquery/dist/jquery.min.js')
+    .pipe(gulp.dest('./js'));
+
+  //Bootstrap LESS
+  gulp.src(bootstrapLessDir)
+    .pipe(gulp.dest('./less/bootstrap'));
+
+  //Bootstrap JS
+  gulp.src('./bower_components/bootstrap/dist/js/bootstrap.min.js')
+    .pipe(gulp.dest('./js'));
+});
+
 gulp.task('production', function () {
   gulp.src(lessMainFile)
     .pipe($.less())
