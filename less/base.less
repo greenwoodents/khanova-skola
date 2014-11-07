@@ -1,12 +1,9 @@
-//Base
-
-// Body reset
+// reset
 body {
 	// -webkit-font-smoothing: antialiased;
 	font-weight: @font-weight-light;
 }
 
-//Typo
 p {
 	font-weight: @font-weight-light;
 	font-size: @font-size-base;
@@ -27,6 +24,10 @@ p {
 	line-height: 21px;
 }
 
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+}
+
 
 
 a {
@@ -37,7 +38,6 @@ a {
 }
 
 
-//Text colors
 .text-colors() {
 	.text-black {
 		color: @khan-black;
@@ -93,7 +93,6 @@ a {
 }
 .text-colors();
 
-//List
 ul {
 	list-style: none;
 	padding-left: 10px;
@@ -117,8 +116,6 @@ ul.list-unstyled {
 }
 
 
-
-//Blockquote
 blockquote {
 	font-family: @headings-font-family;
 	font-weight: @headings-font-weight;
@@ -127,10 +124,10 @@ blockquote {
 	line-height: 23px;
 	border: 0;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 
-//thumbnail
 .thumbnail {
 	border-radius: 0;
 	padding: 6px;
@@ -154,7 +151,6 @@ blockquote {
 }
 
 
-//mark
 .mark,
 mark {
 	padding: 0;
