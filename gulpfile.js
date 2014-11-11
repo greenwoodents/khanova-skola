@@ -54,7 +54,7 @@ gulp.task('default', function() {
 
 gulp.task('watch', ['less'], function() {
     //Watch changes (less, )
-    $.watch('less/**.less', ['less']);
-    $.watch('less/**/**.less', ['less']);
-    $.watch('*.html', ['less']);
+    gulp.watch('less/*.less', ['less']);
+    gulp.watch('less/**/**.less', ['less']);
+    gulp.watch('*.html', ['less']);
 });
