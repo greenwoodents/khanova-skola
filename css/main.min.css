@@ -7465,7 +7465,7 @@ label {
 .timeline .timeline-item .timeline-content {
   float: left;
   margin-left: 10px;
-  width: 100%;
+  width: 90%;
   max-width: 540px;
   position: relative;
 }
@@ -8407,6 +8407,7 @@ label {
   background: rgba(212, 225, 232, 0.13);
   width: 368px;
   height: 100%;
+  padding-bottom: 50px;
 }
 .block-page .content .left:before,
 .block-page .content .left:after {
@@ -8423,6 +8424,14 @@ label {
 }
 .block-page .content .left:after {
   clear: both;
+}
+@media (max-width: 768px) {
+  .block-page .content .left {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 0;
+  }
 }
 .block-page .content .left .icon-wrapper {
   float: left;
@@ -8522,6 +8531,12 @@ label {
 .block-page .content .right {
   float: left;
   margin-left: 368px;
+}
+@media (max-width: 768px) {
+  .block-page .content .right {
+    float: none;
+    margin-left: 0;
+  }
 }
 .block-page .content .right .right-inner {
   padding: 60px;
