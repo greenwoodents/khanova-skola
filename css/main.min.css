@@ -6912,7 +6912,7 @@ a.header .header-content .dropdown .dropdown-menu .subjects-list ul li .text-dan
 }
 .header .header-content .search-input .form-control {
   margin-top: 30px;
-  width: 240px;
+  width: 330px;
 }
 .header .header-content .search-input .btn-search {
   margin-left: 10px;
@@ -6935,7 +6935,7 @@ a.header .header-content .dropdown .dropdown-menu .subjects-list ul li .text-dan
   z-index: 1000;
   background: #ffffff;
   box-shadow: -2px 2px 2px 0px rgba(38, 43, 55, 0.09), inset 0px -1px 0px 1px #d4e1e8;
-  width: 240px;
+  width: 330px;
 }
 .header .header-content .search-box ul {
   padding: 0;
