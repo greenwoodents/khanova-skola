@@ -56,12 +56,24 @@
 				font-size: 24px;
 				color: @khan-blue;
 				line-height: 32px;
-				span {
+				a {
+					.anim;
 					float: left;
+					color: @khan-blue;
+					font-size: 24px;
+					line-height: 32px;
+					// display: block;
+					padding-top: 3px;
+					&:hover {
+						color: darken(@khan-blue, 20%);
+						// text-decoration: none;
+					}
 				}
 				small {
 					.clearfix;
 					float: left;
+					display: block;
+					width: 100px;
 					margin-top: 2px;
 					margin-left: 10px;
 					i {
