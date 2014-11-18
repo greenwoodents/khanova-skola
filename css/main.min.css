@@ -7000,8 +7000,11 @@ a.header .header-content .dropdown .dropdown-menu .subjects-list ul li .text-dan
   line-height: 19px;
   margin-right: 8px;
   display: block;
-  width: 92%;
+  width: 88%;
   float: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
 }
 .header .header-content .search-box ul li a span strong {
   font-weight: 300;
