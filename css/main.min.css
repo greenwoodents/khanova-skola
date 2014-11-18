@@ -6973,6 +6973,22 @@ a.header .header-content .dropdown .dropdown-menu .subjects-list ul li .text-dan
   width: 100%;
   display: block;
 }
+.header .header-content .search-box ul li a:before,
+.header .header-content .search-box ul li a:after {
+  content: " ";
+  display: table;
+}
+.header .header-content .search-box ul li a:after {
+  clear: both;
+}
+.header .header-content .search-box ul li a:before,
+.header .header-content .search-box ul li a:after {
+  content: " ";
+  display: table;
+}
+.header .header-content .search-box ul li a:after {
+  clear: both;
+}
 .header .header-content .search-box ul li a:hover {
   text-decoration: none;
   background: #f5f5f5;
@@ -6983,6 +6999,9 @@ a.header .header-content .dropdown .dropdown-menu .subjects-list ul li .text-dan
   color: #9baeb8;
   line-height: 19px;
   margin-right: 8px;
+  display: block;
+  width: 92%;
+  float: left;
 }
 .header .header-content .search-box ul li a span strong {
   font-weight: 300;
