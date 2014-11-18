@@ -25,3 +25,14 @@ $('.search-wrapper .btn-search').on('click', function(){
 $('.search-wrapper .form-control').on('keyup', function(){
 	$('.search-box').removeClass('hidden');
 });
+
+
+$('.toggle-password').on('click', function(){
+	var $control = $(this);
+	var $field = $('.input-password');
+	if ($control.is(':checked')) {
+		$field.attr('type', 'text');
+	} else {
+		$field.attr('type', 'password');
+	}
+});

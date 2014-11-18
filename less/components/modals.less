@@ -3,6 +3,25 @@
 		box-shadow: 0 0 0;
 		border-radius: 3px;
 		border: 0;
+		.modal-body {
+			text-align: left;
+			.close {
+				position: absolute;
+				top: 10px;
+				right: 10px;
+				opacity: 1;
+				&:hover {
+					.icon {
+						color: darken(@header-border, 15%);
+					}
+				}
+				.icon {
+					.anim;
+					font-size: 20px;
+					color: @header-border;
+				}
+			}
+		}
 		.modal-footer {
 			background: @khan-black2;
 			border: 0;

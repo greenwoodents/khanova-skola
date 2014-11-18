@@ -7143,11 +7143,13 @@ a.header .header-content .dropdown .dropdown-menu .subjects-list ul li .text-dan
 .form-control::-webkit-input-placeholder {
   color: #959b9f;
 }
-input[type=password].form-control {
+input[type=password].form-control,
+.form-control.input-password {
   background: url(../img/inputs/input-lock-normal.svg) no-repeat;
   background-position: 99.5% center;
 }
-input[type=password].form-control:focus {
+input[type=password].form-control:focus,
+.form-control.input-password:focus {
   background-image: url(../img/inputs/input-lock-focus.svg);
 }
 .form-control:focus {
@@ -7164,6 +7166,17 @@ textarea.form-control {
   min-height: 150px;
   resize: none;
 }
+.has-addend {
+  position: relative;
+}
+.addend-icon {
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  font-size: 15px;
+  min-width: 20px;
+  text-align: center;
+}
 label {
   font-weight: 300;
   font-size: 16px;
@@ -7179,8 +7192,13 @@ label {
   box-shadow: none;
   border-color: #b93e11;
 }
+.has-error .addend-icon {
+  color: #d04613;
+}
 .has-error input[type=password],
-.has-error input[type=password]:focus {
+.has-error .input-password,
+.has-error input[type=password]:focus,
+.has-error .input-password:focus {
   background-image: url(../img/inputs/input-lock-error.svg);
 }
 .has-success .form-control {
@@ -7192,8 +7210,13 @@ label {
   box-shadow: none;
   border-color: #64a717;
 }
+.has-success .addend-icon {
+  color: #71bd1a;
+}
 .has-success input[type=password],
-.has-success input[type=password]:focus {
+.has-success .input-password,
+.has-success input[type=password]:focus,
+.has-success .input-password:focus {
   background-image: url(../img/inputs/input-lock-success.svg);
 }
 .checkbox {
@@ -7223,6 +7246,7 @@ label {
       -ms-user-select: none;
           user-select: none;
   font-size: 14px;
+  font-weight: 300;
   color: #9baeb8;
   line-height: 18px;
 }
@@ -7246,27 +7270,27 @@ label {
       -ms-user-select: none;
           user-select: none;
   display: inline-block;
-  width: 15px;
-  height: 16px;
+  width: 16px;
+  height: 17px;
   background-color: transparent;
   float: left;
   margin-right: 10px;
 }
 @media (max-width: 768px) {
   .checkbox label input[type='checkbox'] + span {
-    height: 15px;
+    height: 16px;
   }
 }
 .checkbox label input[type='checkbox'] + span:after {
   -webkit-transition: all 0.2s ease-in-out;
           transition: all 0.2s ease-in-out;
   display: block;
-  width: 10px;
-  height: 10px;
+  width: 11px;
+  height: 11px;
   margin-top: 3px;
   margin-left: 2px;
   text-align: center;
-  line-height: 15px;
+  line-height: 16px;
   content: '';
   color: transparent;
   background: url(../img/checkbox-check.svg) no-repeat;
@@ -7448,6 +7472,9 @@ label {
   border-radius: 3px;
   border: 0;
 }
+.modal .modal-content .modal-body {
+  text-align: left;
+}
 .modal .modal-content .modal-body .close {
   position: absolute;
   top: 10px;
@@ -7628,6 +7655,99 @@ label {
   .landing-page .container {
     width: 1170px;
   }
+}
+.landing-page #loginModal .modal-dialog {
+  width: 455px;
+}
+@media (max-width: 768px) {
+  .landing-page #loginModal .modal-dialog {
+    width: 95%;
+  }
+}
+.landing-page #loginModal .modal-body form {
+  width: 333px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+@media (max-width: 768px) {
+  .landing-page #loginModal .modal-body form {
+    width: 95%;
+    max-width: 333px;
+  }
+}
+.landing-page #loginModal .modal-body form .avatar {
+  margin-top: 10px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+@media (max-width: 768px) {
+  .landing-page #loginModal .modal-body form .avatar {
+    display: none;
+  }
+}
+.landing-page #loginModal .modal-body form .input-mail {
+  width: 280px;
+}
+.landing-page #loginModal .modal-body form .input-password {
+  width: 200px;
+}
+.landing-page #loginModal .modal-body form .checkbox {
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.landing-page #loginModal .modal-body form a {
+  font-size: 16px;
+  color: #0a82cc;
+  line-height: 19px;
+}
+.landing-page #loginModal .modal-body form .btn-submit {
+  width: 115px;
+  margin: 0;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.landing-page #loginModal .modal-body form .form-group-password {
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .landing-page #loginModal .modal-footer {
+    padding-left: 0;
+    padding-right: 40px;
+  }
+}
+.landing-page #loginModal .modal-footer .btn {
+  width: 200px;
+  margin: 0;
+  font-weight: 300;
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  .landing-page #loginModal .modal-footer .btn {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
+.landing-page #loginModal .modal-footer .btn:last-of-type {
+  margin-left: 10px;
+}
+@media (max-width: 768px) {
+  .landing-page #loginModal .modal-footer .btn:last-of-type {
+    margin-bottom: 0;
+  }
+}
+.landing-page #loginModal .modal-footer .btn.btn-facebook {
+  background: #0b6fad;
+  border-color: #353d41;
+  box-shadow: 0 0 0 2px #0b6fad;
+}
+.landing-page #loginModal .modal-footer .btn.btn-google {
+  background: #dd4b39;
+  border-color: #353d41;
+  box-shadow: 0 0 0 2px #dd4b39;
+}
+.landing-page #loginModal .modal-footer .btn i {
+  margin-right: 8px;
 }
 .landing-page .content {
   margin-top: 90px;
