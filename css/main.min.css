@@ -6305,28 +6305,28 @@ button.close {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.icon-close:before {
+.icon-arrow-left-double:before {
   content: "\e600";
 }
-.icon-arrow-left-double:before {
+.icon-arrow-left:before {
   content: "\e601";
 }
-.icon-arrow-left:before {
+.icon-arrow-left2:before {
   content: "\e602";
 }
-.icon-arrow-left2:before {
+.icon-arrow-right-double:before {
   content: "\e603";
 }
-.icon-arrow-right-double:before {
+.icon-arrow-right:before {
   content: "\e604";
 }
-.icon-arrow-right:before {
+.icon-arrow-up:before {
   content: "\e605";
 }
-.icon-arrow-up:before {
+.icon-art-history:before {
   content: "\e606";
 }
-.icon-art-history:before {
+.icon-close:before {
   content: "\e607";
 }
 .icon-comments:before {
@@ -6389,47 +6389,53 @@ button.close {
 .icon-physics:before {
   content: "\e61b";
 }
-.icon-play2:before {
+.icon-play:before {
   content: "\e61c";
 }
-.icon-quotes:before {
+.icon-play2:before {
   content: "\e61d";
 }
-.icon-replay:before {
+.icon-quotes:before {
   content: "\e61e";
 }
-.icon-return:before {
+.icon-replay:before {
   content: "\e61f";
 }
-.icon-rocket:before {
+.icon-return:before {
   content: "\e620";
 }
-.icon-search:before {
+.icon-rocket:before {
   content: "\e621";
 }
-.icon-time:before {
+.icon-search:before {
   content: "\e622";
 }
-.icon-times:before {
+.icon-time:before {
   content: "\e623";
 }
-.icon-twitter:before {
+.icon-times:before {
   content: "\e624";
 }
-.icon-unlock:before {
+.icon-twitter:before {
   content: "\e625";
 }
-.icon-user-add:before {
+.icon-unlock:before {
   content: "\e626";
 }
-.icon-user:before {
+.icon-user-add:before {
   content: "\e627";
 }
-.icon-youtube:before {
+.icon-user:before {
   content: "\e628";
 }
-.icon-zsv:before {
+.icon-volume:before {
   content: "\e629";
+}
+.icon-youtube:before {
+  content: "\e62a";
+}
+.icon-zsv:before {
+  content: "\e62b";
 }
 body {
   font-weight: 300;
@@ -8397,7 +8403,7 @@ label {
 .course-page .course-header.course-text .course-header-content .right .slider-wrapper {
   position: relative;
   overflow: auto;
-  width: 800px;
+  width: 770px;
 }
 .course-page .course-header.course-text .course-header-content .right .slider-wrapper .slider-container {
   height: 500px;
