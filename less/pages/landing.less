@@ -19,7 +19,7 @@
 		}
 	}
 
-	#loginModal {
+	.modal-sign {
 		.modal-dialog {
 			width: 455px;
 			@media (max-width: @screen-sm) {
@@ -108,6 +108,21 @@
 				}
 				// padding-left: 15px;
 				// padding-right: 15px;
+			}
+		}
+	}
+
+	#registerModal {
+		.modal-body{
+			.btn {
+				width: 125px;
+				margin-bottom: 5px;
+			}
+			.form-group-password {
+				margin-top: 20px;
+				.checkbox {
+					margin-top: 5px;
+				}
 			}
 		}
 	}
@@ -280,6 +295,7 @@
 		@media (max-width: @screen-sm) {
 			text-align: center;
 			margin-top: 40px;
+			margin-left: -10px;
 		}
 		@media (max-width: @screen-xs) {
 			margin-top: 0;
