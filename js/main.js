@@ -1,4 +1,4 @@
-//Main.js
+
 
 $('.ul-tab a').click(function (e) {
 	e.preventDefault();
@@ -62,6 +62,26 @@ $('.video-play').on('click', function(){
 
 	return false;
 });
+
+function playthevideo(){
+	var myPlayer = document.getElementById('my_video');
+	myPlayer.playVideo();
+}
+function stopthevideo(){
+	var myPlayer = document.getElementById('my_video');
+	myPlayer.stopVideo();
+}
+
+function pausethevideo(){
+	var myPlayer = document.getElementById('my_video'); 
+	myPlayer.pauseVideo();
+}
+
+$('.course-header-footer .play').on('click', function(){
+	playthevideo();
+});
+
+
 
 
 
