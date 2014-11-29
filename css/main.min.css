@@ -9334,7 +9334,26 @@ fieldset[disabled] .btn-danger.active {
   margin-bottom: 5px;
 }
 .landing-page #registerModal .modal-body .form-group-password {
-  margin-top: 20px;
+  margin-top: 25px;
+}
+.landing-page #registerModal .modal-body .form-group-password:before,
+.landing-page #registerModal .modal-body .form-group-password:after {
+  content: " ";
+  display: table;
+}
+.landing-page #registerModal .modal-body .form-group-password:after {
+  clear: both;
+}
+.landing-page #registerModal .modal-body .form-group-password:before,
+.landing-page #registerModal .modal-body .form-group-password:after {
+  content: " ";
+  display: table;
+}
+.landing-page #registerModal .modal-body .form-group-password:after {
+  clear: both;
+}
+.landing-page #registerModal .modal-body .form-group-password .form-control {
+  float: left;
 }
 .landing-page #registerModal .modal-body .form-group-password .checkbox {
   margin-top: 5px;
