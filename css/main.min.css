@@ -9820,7 +9820,7 @@ fieldset[disabled] .btn-danger.active {
   margin: 0 auto;
   display: block;
   position: relative;
-  height: 100px;
+  height: 111px;
 }
 .scheme-page .scheme-wrapper .scheme-section:before,
 .scheme-page .scheme-wrapper .scheme-section:after {
@@ -9837,12 +9837,16 @@ fieldset[disabled] .btn-danger.active {
 }
 .scheme-page .scheme-wrapper .scheme-section:after {
   clear: both;
+}
+.scheme-page .scheme-wrapper .scheme-section:nth-child(1) {
+  margin-bottom: 15px;
 }
 .scheme-page .scheme-wrapper .scheme-section .scheme-item {
   width: 150px;
   display: block;
   text-align: center;
   color: #ffffff;
+  padding-top: 15px;
 }
 .scheme-page .scheme-wrapper .scheme-section .scheme-item:nth-child(1) {
   float: left;
@@ -9859,13 +9863,20 @@ fieldset[disabled] .btn-danger.active {
 .scheme-page .scheme-wrapper .scheme-section .scheme-item.scheme-item-line {
   background: url(../img/arrows/simple-line.svg) no-repeat;
   background-position: center 0;
-  height: 100px;
+  height: 111px;
   display: block;
 }
 .scheme-page .scheme-wrapper .scheme-section .scheme-item .icon {
   display: block;
   font-size: 30px;
   margin-bottom: 20px;
+}
+.scheme-page .scheme-wrapper .scheme-section .scheme-item span {
+  font-family: 'frente_h1regular', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 32px;
 }
 .scheme-page .scheme-wrapper .scheme-arrow {
   width: 870px;
