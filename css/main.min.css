@@ -7365,6 +7365,11 @@ a.header .header-content .dropdown .dropdown-menu .subjects-list ul li .text-dan
   padding-right: 0;
   margin-left: 30px;
 }
+.header .header-userarea .btn:hover,
+.header .header-userarea .btn:focus {
+  padding-left: 0;
+  padding-right: 0;
+}
 .header.header-white-border {
   -webkit-transition: all 0.2s ease-in-out;
           transition: all 0.2s ease-in-out;
@@ -10417,11 +10422,13 @@ fieldset[disabled] .btn-danger.active {
   text-align: center;
   display: block;
 }
-.course-page .course-header .course-header-footer .left a:hover {
+.course-page .course-header .course-header-footer .left a:hover,
+.course-page .course-header .course-header-footer .left a:focus {
   text-decoration: none;
   background: #0a82cc;
 }
-.course-page .course-header .course-header-footer .left a:hover .icon {
+.course-page .course-header .course-header-footer .left a:hover .icon,
+.course-page .course-header .course-header-footer .left a:focus .icon {
   color: #ffffff;
 }
 .course-page .course-header .course-header-footer .left a .icon {
