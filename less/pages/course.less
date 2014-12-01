@@ -407,7 +407,7 @@
 			}
 			.right {
 				float: right;
-				width: 250px;
+				width: 340px;
 				text-align: right;
 				a {
 					.clearfix;
@@ -417,8 +417,8 @@
 					width: auto;
 					height: 70px;
 					color: @white;
-					padding-left: 25px;
-					padding-right: 20px;
+					padding-left: 15px;
+					padding-right: 10px;
 					line-height: 69px;
 					&:hover {
 						background: @btn-default-active;
@@ -426,12 +426,18 @@
 					span {
 						float: left;
 						font-size: 16px;
+						line-height: 1.2;
+						max-width: 220px;
+						margin-top: 25px;
+						white-space: nowrap;
+						overflow: hidden;
+						text-overflow: ellipsis;
 					}
 					small {
 						float: left;
 						font-size: 11px;
 						color: @header-border;
-						margin-left: 4px;
+						margin-left: 6px;
 					}
 					i {
 						float: left;

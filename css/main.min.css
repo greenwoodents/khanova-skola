@@ -10502,7 +10502,7 @@ fieldset[disabled] .btn-danger.active {
 }
 .course-page .course-header .course-header-footer .right {
   float: right;
-  width: 250px;
+  width: 340px;
   text-align: right;
 }
 .course-page .course-header .course-header-footer .right a {
@@ -10512,8 +10512,8 @@ fieldset[disabled] .btn-danger.active {
   width: auto;
   height: 70px;
   color: #ffffff;
-  padding-left: 25px;
-  padding-right: 20px;
+  padding-left: 15px;
+  padding-right: 10px;
   line-height: 69px;
 }
 .course-page .course-header .course-header-footer .right a:before,
@@ -10538,12 +10538,18 @@ fieldset[disabled] .btn-danger.active {
 .course-page .course-header .course-header-footer .right a span {
   float: left;
   font-size: 16px;
+  line-height: 1.2;
+  max-width: 220px;
+  margin-top: 25px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .course-page .course-header .course-header-footer .right a small {
   float: left;
   font-size: 11px;
   color: #d4e1e8;
-  margin-left: 4px;
+  margin-left: 6px;
 }
 .course-page .course-header .course-header-footer .right a i {
   float: left;
