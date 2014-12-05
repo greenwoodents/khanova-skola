@@ -18,7 +18,21 @@
 		<!--[if lt IE 7]>
 			<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 		<![endif]-->
+
+		<!--/////////////////////
+
+
+		MARTIN HALIK's CODE (need rewriting )))
+
+
+		//////////////////////-->
+
 		<style>
+		/*tohle tu je jen kvuli tomu, abych to lepe videl*/
+		.bunka i {
+			padding: 10px 10px;
+			display: block;
+		}
 		/******************
 
 					SLOUPCE
@@ -38,7 +52,8 @@
 		}
 		.scheme-page {
 			width: 100%;
-			background: #000;
+			background: #141617;
+			padding-bottom: 200px;
 		}
 
 		.scheme-wrapper {
@@ -79,18 +94,24 @@
 				v. sipka zleva
 				vi. sipka zprava
 
+				** v pripade, ze se zobrazi vice sipek, tak hlavni sipka je ve tride bunky ostatni jsou v bunce jako span class="treba zatacka-vpravo", v pripade ze jdou do leve poloviny bunky je treba pripsat classu zleva
+
+
 		******************/
 
 		.bunka {
 			margin: 0px; padding: 0px;
-			border: 1px dotted #789;
 			width: 100%;
 			position: relative;
 		}
 
 		.bunka-licha {
 			height: 117px;
-			color: #fff; text-align: center;
+			color: #fff; text-align: center; font-size: 20px; font-family: frente_h1regular,Arial,sans-serif;
+		}
+
+		.text-2radky {
+			font-size: 16px;
 		}
 
 		.bunka-suda {
@@ -98,8 +119,12 @@
 		}
 
 		.bunka-suda span {
-			position: absolute; top: 0; left: 10px;
-			width: 172px; height: 30px;
+			position: absolute; top: 0; left: 8px;
+			width: 174px; height: 42px;
+		}
+
+		.bunka-suda span.zleva {
+			left: -8px;
 		}
 
 		.horizontalni-cara {
@@ -109,10 +134,10 @@
 			background: 50% 50% url(./img/arrows/sipka-dolu.svg) no-repeat;
 		}
 		.vertikalni-cara {
-			background: 50% 50% url(./img/arrows/vertikalni-cara.svg) no-repeat;
+			background: 50% 50% url(./img/arrows/vertikalni-cara.svg) repeat-y;
 		}
 		.odbocka-vlevo {
-			background: 0 top url(./img/arrows/odbocka-vlevo.svg) no-repeat;
+			background: -3px top url(./img/arrows/odbocka-vlevo.svg) no-repeat;
 		}
 		.odbocka-vpravo {
 			background: 90px top url(./img/arrows/odbocka-vpravo.svg) no-repeat;
@@ -164,9 +189,8 @@
 							</div>
 
 
-							<div class="bunka bunka-licha text-1radek">
-								<i class="icon icon-math text-blue"></i>
-								<span>Aritmetika</span>
+							<div class="bunka bunka-licha vertikalni-cara">
+
 							</div>
 
 							<div class="bunka bunka-suda vertikalni-cara">
@@ -210,12 +234,41 @@
 
 					</div>
 
-					<div class="mezera">
+					<!--
 
+
+					MEZERA
+
+
+					-->
+					<div class="mezera">
 
 						<div class="bunka bunka-licha prazdna">
 						</div>
+						<div class="bunka bunka-suda horizontalni-cara"></div>
 
+						<div class="bunka bunka-licha prazdna">
+						</div>
+						<div class="bunka bunka-suda horizontalni-cara"></div>
+
+						<div class="bunka bunka-licha prazdna">
+						</div>
+						<div class="bunka bunka-suda horizontalni-cara"></div>
+
+						<div class="bunka bunka-licha prazdna">
+						</div>
+						<div class="bunka bunka-suda horizontalni-cara"></div>
+
+						<div class="bunka bunka-licha prazdna">
+						</div>
+						<div class="bunka bunka-suda horizontalni-cara"></div>
+
+						<div class="bunka bunka-licha prazdna">
+						</div>
+						<div class="bunka bunka-suda horizontalni-cara"></div>
+
+						<div class="bunka bunka-licha prazdna">
+						</div>
 						<div class="bunka bunka-suda horizontalni-cara"></div>
 
 					</div>
@@ -229,12 +282,13 @@
 					-->
 					<div id="mid-sloupec" class="sloupec">
 
-						<div class="bunka bunka-licha text-2radek">
+						<div class="bunka bunka-licha text-2radky">
 							<i class="icon icon-math text-blue"></i>
 							<span>Dlouhatanansky text pres 2 radky je treba odlisit (jina velikost textu i ikony)</span>
 						</div>
 
 						<div class="bunka bunka-suda sipka-dolu">
+							<span class="sipka-zleva zleva"></span>
 						</div>
 
 						<div class="bunka bunka-licha text-1radek">
@@ -255,27 +309,21 @@
 						</div>
 
 
-						<div class="bunka bunka-licha text-1radek">
-							<i class="icon icon-math text-blue"></i>
-							<span>Aritmetika</span>
+						<div class="bunka bunka-licha vertikalni-cara">
 						</div>
 
 						<div class="bunka bunka-suda vertikalni-cara">
 						</div>
 
 
-						<div class="bunka bunka-licha text-1radek">
-							<i class="icon icon-math text-blue"></i>
-							<span>Aritmetika</span>
+						<div class="bunka bunka-licha vertikalni-cara">
 						</div>
 
 						<div class="bunka bunka-suda odbocka-vlevo">
 						</div>
 
 
-						<div class="bunka bunka-licha text-1radek">
-							<i class="icon icon-math text-blue"></i>
-							<span>Aritmetika</span>
+						<div class="bunka bunka-licha vertikalni-cara">
 						</div>
 
 						<div class="bunka bunka-suda odbocka-vpravo">
@@ -311,54 +359,13 @@
 
 					</div>
 
+					<!--/////////////////////
 
 
-					<!--<div class="container">
-						<div class="scheme-section">
-							<div class="scheme-item"></div>
-							<div class="scheme-item">
-								<i class="icon icon-math text-blue"></i>
-								<span>Aritmetika</span>
-							</div>
-							<div class="scheme-item"></div>
-						</div>
-						<div class="scheme-arrow">
-							<img src="img/arrows/scheme-arrow-1.svg" alt="arrow">
-						</div>
+					BACK DAVID VESELY's CODE
 
-						<div class="scheme-section">
-							<div class="scheme-item scheme-item-line"></div>
-							<div class="scheme-item">
-								<i class="icon icon-math text-blue"></i>
-								<span>Elementární algebra</span>
-							</div>
-							<div class="scheme-item">
-								<i class="icon icon-math text-blue"></i>
-								<span>Měření a data</span>
-							</div>
-						</div>
-						<div class="scheme-arrow">
-							<img src="img/arrows/scheme-arrow-2.svg" alt="arrow">
-						</div>
 
-						<div class="scheme-section">
-							<div class="scheme-item">
-								<i class="icon icon-math text-blue"></i>
-								<span>Elementární algebra</span>
-							</div>
-							<div class="scheme-item">
-								<i class="icon icon-math text-blue"></i>
-								<span>Elementární algebra</span>
-							</div>
-							<div class="scheme-item">
-								<i class="icon icon-math text-blue"></i>
-								<span>Měření a data</span>
-							</div>
-						</div>
-						<div class="scheme-arrow">
-							<img src="img/arrows/scheme-arrow-1.svg" alt="arrow">
-						</div>
-					</div>-->
+					//////////////////////-->
 				</div>
 			</main>
 			<div class="clearfix"></div>
