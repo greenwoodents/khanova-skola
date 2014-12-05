@@ -1,0 +1,220 @@
+<!-- DELETE IT IN TIME / DON't use in release -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<!--[if ie]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+		<title>Khanova škola</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'> -->
+		<link rel="stylesheet" type="text/css" href="css/main.min.css">
+		<!--[if lt IE 9]>
+			<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<!--[if lt IE 7]>
+			<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+		<![endif]-->
+		<style>
+		/******************
+
+					SLOUPCE
+
+		******************/
+		.left {
+			float: left;
+		}
+
+		.right {
+			float: right;
+		}
+
+		.mid {
+			margin: 0px auto;
+
+		}
+		.scheme-page {
+			width: 100%;
+			background: #000;
+		}
+
+		.scheme-wrapper {
+			width: 660px;
+			margin: 0px auto;
+		}
+
+		.sloupec {
+			margin: 0; padding: 0;
+			width: 182px; height: 300px;
+			background: #333;
+			float: left;
+		}
+
+		.mezera {
+			margin: 0; padding: 0;
+			width: 57px; height: 30px;
+			float: left;
+			background: blue;
+		}
+
+		/******************
+
+					BUNKY
+
+		a/ liche
+			1. prazdna
+			2. horizontalni cara
+			2. predmet s kratkym nazvem
+			3. predmet s dlouhym nazvem
+
+		b/ sude
+			1. prazdna
+			2. horizontalni cara
+			3. ruzne kombinace car/sipek
+				i. sipka dolu
+				ii. vertikalni cara
+				iii. zatacka doleva
+				iv. zatacka doprava
+				v. sipka zleva
+				vi. sipka zprava
+
+		******************/
+
+		.bunka {
+			margin: 0px; padding: 0px;
+			border: 1px dotted #789;
+			width: 100%;
+		}
+
+		.bunka-licha {
+			height: 117px;
+			color: #fff; text-align: center;
+		}
+
+		.bunka-suda {
+			height: 42px;
+		}
+
+		</style>
+
+		<!--TODO
+
+		A/ pres JS vypocit sirku sloupcum a mezeram libovolnou sirku
+
+		-->
+
+		<div class="scheme-page">
+			<main class="content">
+				<div class="scheme-wrapper">
+
+
+					<div id="levy-sloupec" class="sloupec">
+
+							<!-- bunka a 2 -->
+							<div class="bunka bunka-licha text-1radek">
+								<i class="icon icon-math text-blue"></i>
+								<span>Aritmetika</span>
+							</div>
+
+							<!-- bunka b 3 i -->
+							<div class="bunka bunka-suda sipka-dolu">
+
+							</div>
+
+					</div>
+
+					<div class="mezera">
+
+						<!-- bunka a 1 -->
+						<div class="bunka bunka-licha prazdna">
+						</div>
+
+						<div class="bunka bunka-suda horizontalni-cara">
+							<!-- horizontalni cara -->
+						</div>
+
+					</div>
+
+					<div id="mid-sloupec" class="sloupec">
+
+						<div class="bunka bunka-licha text-2radek">
+							<i class="icon icon-math text-blue"></i>
+							<span>Dlouhatanansky text pres 2 radky</span>
+						</div>
+
+					</div>
+
+					<div class="mezera">
+
+
+					</div>
+
+					<div id="pravy-sloupec" class="sloupec">
+
+
+
+					</div>
+
+
+
+					<!--<div class="container">
+						<div class="scheme-section">
+							<div class="scheme-item"></div>
+							<div class="scheme-item">
+								<i class="icon icon-math text-blue"></i>
+								<span>Aritmetika</span>
+							</div>
+							<div class="scheme-item"></div>
+						</div>
+						<div class="scheme-arrow">
+							<img src="img/arrows/scheme-arrow-1.svg" alt="arrow">
+						</div>
+
+						<div class="scheme-section">
+							<div class="scheme-item scheme-item-line"></div>
+							<div class="scheme-item">
+								<i class="icon icon-math text-blue"></i>
+								<span>Elementární algebra</span>
+							</div>
+							<div class="scheme-item">
+								<i class="icon icon-math text-blue"></i>
+								<span>Měření a data</span>
+							</div>
+						</div>
+						<div class="scheme-arrow">
+							<img src="img/arrows/scheme-arrow-2.svg" alt="arrow">
+						</div>
+
+						<div class="scheme-section">
+							<div class="scheme-item">
+								<i class="icon icon-math text-blue"></i>
+								<span>Elementární algebra</span>
+							</div>
+							<div class="scheme-item">
+								<i class="icon icon-math text-blue"></i>
+								<span>Elementární algebra</span>
+							</div>
+							<div class="scheme-item">
+								<i class="icon icon-math text-blue"></i>
+								<span>Měření a data</span>
+							</div>
+						</div>
+						<div class="scheme-arrow">
+							<img src="img/arrows/scheme-arrow-1.svg" alt="arrow">
+						</div>
+					</div>-->
+				</div>
+			</main>
+			<div class="clearfix"></div>
+		</div>
+		<!-- Javascript -->
+		<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+
+	</body>
+</html>
