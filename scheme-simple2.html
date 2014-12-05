@@ -48,8 +48,7 @@
 
 		.sloupec {
 			margin: 0; padding: 0;
-			width: 182px; height: 300px;
-			background: #333;
+			width: 182px; min-height: 300px;
 			float: left;
 		}
 
@@ -57,7 +56,6 @@
 			margin: 0; padding: 0;
 			width: 57px; height: 30px;
 			float: left;
-			background: blue;
 		}
 
 		/******************
@@ -87,6 +85,7 @@
 			margin: 0px; padding: 0px;
 			border: 1px dotted #789;
 			width: 100%;
+			position: relative;
 		}
 
 		.bunka-licha {
@@ -96,6 +95,33 @@
 
 		.bunka-suda {
 			height: 42px;
+		}
+
+		.bunka-suda span {
+			position: absolute; top: 0; left: 10px;
+			width: 172px; height: 30px;
+		}
+
+		.horizontalni-cara {
+			background: 50% 13px url(./img/arrows/horizontalni-cara.svg) no-repeat;
+		}
+		.sipka-dolu {
+			background: 50% 50% url(./img/arrows/sipka-dolu.svg) no-repeat;
+		}
+		.vertikalni-cara {
+			background: 50% 50% url(./img/arrows/vertikalni-cara.svg) no-repeat;
+		}
+		.odbocka-vlevo {
+			background: 0 top url(./img/arrows/odbocka-vlevo.svg) no-repeat;
+		}
+		.odbocka-vpravo {
+			background: 90px top url(./img/arrows/odbocka-vpravo.svg) no-repeat;
+		}
+		.sipka-zleva {
+			background: 0 bottom url(./img/arrows/sipka-zleva.svg) no-repeat;
+		}
+		.sipka-zprava {
+			background: 90px bottom url(./img/arrows/sipka-zprava.svg) no-repeat;
 		}
 
 		</style>
@@ -110,39 +136,158 @@
 			<main class="content">
 				<div class="scheme-wrapper">
 
+					<!--
 
+
+					LEVY SLOUPEC
+
+
+					-->
 					<div id="levy-sloupec" class="sloupec">
 
-							<!-- bunka a 2 -->
 							<div class="bunka bunka-licha text-1radek">
 								<i class="icon icon-math text-blue"></i>
 								<span>Aritmetika</span>
 							</div>
 
-							<!-- bunka b 3 i -->
 							<div class="bunka bunka-suda sipka-dolu">
+								<span class="odbocka-vpravo"></span>
+							</div>
 
+
+							<div class="bunka bunka-licha text-1radek">
+								<i class="icon icon-math text-blue"></i>
+								<span>Aritmetika</span>
+							</div>
+
+							<div class="bunka bunka-suda horizontalni-cara">
+							</div>
+
+
+							<div class="bunka bunka-licha text-1radek">
+								<i class="icon icon-math text-blue"></i>
+								<span>Aritmetika</span>
+							</div>
+
+							<div class="bunka bunka-suda vertikalni-cara">
+							</div>
+
+
+							<div class="bunka bunka-licha text-1radek">
+								<i class="icon icon-math text-blue"></i>
+								<span>Aritmetika</span>
+							</div>
+
+							<div class="bunka bunka-suda odbocka-vlevo">
+							</div>
+
+
+							<div class="bunka bunka-licha text-1radek">
+								<i class="icon icon-math text-blue"></i>
+								<span>Aritmetika</span>
+							</div>
+
+							<div class="bunka bunka-suda odbocka-vpravo">
+							</div>
+
+
+							<div class="bunka bunka-licha text-1radek">
+								<i class="icon icon-math text-blue"></i>
+								<span>Aritmetika</span>
+							</div>
+
+							<div class="bunka bunka-suda sipka-zleva">
+							</div>
+
+
+							<div class="bunka bunka-licha text-1radek">
+								<i class="icon icon-math text-blue"></i>
+								<span>Aritmetika</span>
+							</div>
+
+							<div class="bunka bunka-suda sipka-zprava">
 							</div>
 
 					</div>
 
 					<div class="mezera">
 
-						<!-- bunka a 1 -->
+
 						<div class="bunka bunka-licha prazdna">
 						</div>
 
-						<div class="bunka bunka-suda horizontalni-cara">
-							<!-- horizontalni cara -->
-						</div>
+						<div class="bunka bunka-suda horizontalni-cara"></div>
 
 					</div>
 
+					<!--
+
+
+					PROSTREDNI SLOUPEC
+
+
+					-->
 					<div id="mid-sloupec" class="sloupec">
 
 						<div class="bunka bunka-licha text-2radek">
 							<i class="icon icon-math text-blue"></i>
-							<span>Dlouhatanansky text pres 2 radky</span>
+							<span>Dlouhatanansky text pres 2 radky je treba odlisit (jina velikost textu i ikony)</span>
+						</div>
+
+						<div class="bunka bunka-suda sipka-dolu">
+						</div>
+
+						<div class="bunka bunka-licha text-1radek">
+							<i class="icon icon-math text-blue"></i>
+							<span>Aritmetika</span>
+						</div>
+
+						<div class="bunka bunka-suda sipka-dolu">
+						</div>
+
+
+						<div class="bunka bunka-licha text-1radek">
+							<i class="icon icon-math text-blue"></i>
+							<span>Aritmetika</span>
+						</div>
+
+						<div class="bunka bunka-suda horizontalni-cara">
+						</div>
+
+
+						<div class="bunka bunka-licha text-1radek">
+							<i class="icon icon-math text-blue"></i>
+							<span>Aritmetika</span>
+						</div>
+
+						<div class="bunka bunka-suda vertikalni-cara">
+						</div>
+
+
+						<div class="bunka bunka-licha text-1radek">
+							<i class="icon icon-math text-blue"></i>
+							<span>Aritmetika</span>
+						</div>
+
+						<div class="bunka bunka-suda odbocka-vlevo">
+						</div>
+
+
+						<div class="bunka bunka-licha text-1radek">
+							<i class="icon icon-math text-blue"></i>
+							<span>Aritmetika</span>
+						</div>
+
+						<div class="bunka bunka-suda odbocka-vpravo">
+						</div>
+
+
+						<div class="bunka bunka-licha text-1radek">
+							<i class="icon icon-math text-blue"></i>
+							<span>Aritmetika</span>
+						</div>
+
+						<div class="bunka bunka-suda sipka-zleva">
 						</div>
 
 					</div>
@@ -152,6 +297,14 @@
 
 					</div>
 
+
+					<!--
+
+
+					PRAVY SLOUPEC
+
+
+					-->
 					<div id="pravy-sloupec" class="sloupec">
 
 
