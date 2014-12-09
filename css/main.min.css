@@ -8977,6 +8977,128 @@ fieldset[disabled] .btn-danger.active {
   padding-left: 20px;
   padding-right: 20px;
 }
+.modal-sign .modal-dialog {
+  width: 455px;
+}
+@media (max-width: 768px) {
+  .modal-sign .modal-dialog {
+    width: 95%;
+  }
+}
+.modal-sign .modal-body form {
+  width: 333px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+@media (max-width: 768px) {
+  .modal-sign .modal-body form {
+    width: 95%;
+    max-width: 333px;
+  }
+}
+.modal-sign .modal-body form .avatar {
+  margin-top: 10px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+@media (max-width: 768px) {
+  .modal-sign .modal-body form .avatar {
+    display: none;
+  }
+}
+.modal-sign .modal-body form .input-mail {
+  width: 280px;
+}
+.modal-sign .modal-body form .input-password {
+  width: 200px;
+}
+.modal-sign .modal-body form .checkbox {
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.modal-sign .modal-body form a {
+  font-size: 16px;
+  color: #0a82cc;
+  line-height: 19px;
+}
+.modal-sign .modal-body form .btn-submit {
+  width: 115px;
+  margin: 0;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.modal-sign .modal-body form .form-group-password {
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .modal-sign .modal-footer {
+    padding-left: 0;
+    padding-right: 40px;
+  }
+}
+.modal-sign .modal-footer .btn {
+  width: 200px;
+  margin: 0;
+  font-weight: 300;
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  .modal-sign .modal-footer .btn {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
+.modal-sign .modal-footer .btn:last-of-type {
+  margin-left: 10px;
+}
+@media (max-width: 768px) {
+  .modal-sign .modal-footer .btn:last-of-type {
+    margin-bottom: 0;
+  }
+}
+.modal-sign .modal-footer .btn.btn-facebook {
+  background: #0b6fad;
+  border-color: #353d41;
+  box-shadow: 0 0 0 2px #0b6fad;
+}
+.modal-sign .modal-footer .btn.btn-google {
+  background: #dd4b39;
+  border-color: #353d41;
+  box-shadow: 0 0 0 2px #dd4b39;
+}
+.modal-sign .modal-footer .btn i {
+  margin-right: 8px;
+}
+#registerModal .modal-body .btn {
+  width: 125px;
+  margin-bottom: 5px;
+}
+#registerModal .modal-body .form-group-password {
+  margin-top: 25px;
+}
+#registerModal .modal-body .form-group-password:before,
+#registerModal .modal-body .form-group-password:after {
+  content: " ";
+  display: table;
+}
+#registerModal .modal-body .form-group-password:after {
+  clear: both;
+}
+#registerModal .modal-body .form-group-password:before,
+#registerModal .modal-body .form-group-password:after {
+  content: " ";
+  display: table;
+}
+#registerModal .modal-body .form-group-password:after {
+  clear: both;
+}
+#registerModal .modal-body .form-group-password .form-control {
+  float: left;
+}
+#registerModal .modal-body .form-group-password .checkbox {
+  margin-top: 5px;
+}
 .timeline .timeline-item {
   margin-bottom: 30px;
 }
@@ -9250,128 +9372,6 @@ fieldset[disabled] .btn-danger.active {
   .landing-page .container {
     padding-left: 0;
   }
-}
-.landing-page .modal-sign .modal-dialog {
-  width: 455px;
-}
-@media (max-width: 768px) {
-  .landing-page .modal-sign .modal-dialog {
-    width: 95%;
-  }
-}
-.landing-page .modal-sign .modal-body form {
-  width: 333px;
-  margin: 0 auto;
-  margin-top: 40px;
-}
-@media (max-width: 768px) {
-  .landing-page .modal-sign .modal-body form {
-    width: 95%;
-    max-width: 333px;
-  }
-}
-.landing-page .modal-sign .modal-body form .avatar {
-  margin-top: 10px;
-  margin-right: 5px;
-  border-radius: 50%;
-}
-@media (max-width: 768px) {
-  .landing-page .modal-sign .modal-body form .avatar {
-    display: none;
-  }
-}
-.landing-page .modal-sign .modal-body form .input-mail {
-  width: 280px;
-}
-.landing-page .modal-sign .modal-body form .input-password {
-  width: 200px;
-}
-.landing-page .modal-sign .modal-body form .checkbox {
-  margin-top: 30px;
-  margin-left: 15px;
-}
-.landing-page .modal-sign .modal-body form a {
-  font-size: 16px;
-  color: #0a82cc;
-  line-height: 19px;
-}
-.landing-page .modal-sign .modal-body form .btn-submit {
-  width: 115px;
-  margin: 0;
-  margin-bottom: 30px;
-  margin-top: 20px;
-}
-.landing-page .modal-sign .modal-body form .form-group-password {
-  margin-bottom: 10px;
-}
-@media (max-width: 768px) {
-  .landing-page .modal-sign .modal-footer {
-    padding-left: 0;
-    padding-right: 40px;
-  }
-}
-.landing-page .modal-sign .modal-footer .btn {
-  width: 200px;
-  margin: 0;
-  font-weight: 300;
-  font-size: 14px;
-}
-@media (max-width: 768px) {
-  .landing-page .modal-sign .modal-footer .btn {
-    width: 90%;
-    margin: 0 auto;
-    margin-bottom: 20px;
-  }
-}
-.landing-page .modal-sign .modal-footer .btn:last-of-type {
-  margin-left: 10px;
-}
-@media (max-width: 768px) {
-  .landing-page .modal-sign .modal-footer .btn:last-of-type {
-    margin-bottom: 0;
-  }
-}
-.landing-page .modal-sign .modal-footer .btn.btn-facebook {
-  background: #0b6fad;
-  border-color: #353d41;
-  box-shadow: 0 0 0 2px #0b6fad;
-}
-.landing-page .modal-sign .modal-footer .btn.btn-google {
-  background: #dd4b39;
-  border-color: #353d41;
-  box-shadow: 0 0 0 2px #dd4b39;
-}
-.landing-page .modal-sign .modal-footer .btn i {
-  margin-right: 8px;
-}
-.landing-page #registerModal .modal-body .btn {
-  width: 125px;
-  margin-bottom: 5px;
-}
-.landing-page #registerModal .modal-body .form-group-password {
-  margin-top: 25px;
-}
-.landing-page #registerModal .modal-body .form-group-password:before,
-.landing-page #registerModal .modal-body .form-group-password:after {
-  content: " ";
-  display: table;
-}
-.landing-page #registerModal .modal-body .form-group-password:after {
-  clear: both;
-}
-.landing-page #registerModal .modal-body .form-group-password:before,
-.landing-page #registerModal .modal-body .form-group-password:after {
-  content: " ";
-  display: table;
-}
-.landing-page #registerModal .modal-body .form-group-password:after {
-  clear: both;
-}
-.landing-page #registerModal .modal-body .form-group-password .form-control {
-  float: left;
-}
-.landing-page #registerModal .modal-body .form-group-password .checkbox {
-  margin-top: 5px;
 }
 .landing-page .content {
   margin-top: 90px;
