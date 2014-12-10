@@ -277,6 +277,41 @@
 							line-height: 20px;
 						}
 					}
+					.goal-title {
+						font-family: @font-family-base;
+						font-weight:@font-weight-light;
+						font-size: 16px;
+						color: @khan-black2;
+						line-height: 19px;
+						margin-bottom: 15px;
+					}
+					.box-goal {
+						margin-left: -45px;
+						.goal {
+							&:nth-child(1) {
+								opacity: .2;
+							}
+							&:nth-child(2) {
+								opacity: .5;
+							}
+							&.ok {
+								float: left;
+								margin-right: 10px;
+								color: @khan-green;
+								i {
+									font-size: 13px;
+								}
+							}
+							&.error {
+								float: left;
+								margin-right: 10px;
+								color: @khan-red;
+								i {
+									font-size: 11px;
+								}
+							}
+						}
+					}
 				}
 			}
 			.right {

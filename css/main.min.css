@@ -10392,6 +10392,39 @@ fieldset[disabled] .btn-danger.active {
   color: #9baeb8;
   line-height: 20px;
 }
+.course-page .course-header .course-header-content .left .content-wrapper .goal-title {
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #353d41;
+  line-height: 19px;
+  margin-bottom: 15px;
+}
+.course-page .course-header .course-header-content .left .content-wrapper .box-goal {
+  margin-left: -45px;
+}
+.course-page .course-header .course-header-content .left .content-wrapper .box-goal .goal:nth-child(1) {
+  opacity: .2;
+}
+.course-page .course-header .course-header-content .left .content-wrapper .box-goal .goal:nth-child(2) {
+  opacity: .5;
+}
+.course-page .course-header .course-header-content .left .content-wrapper .box-goal .goal.ok {
+  float: left;
+  margin-right: 10px;
+  color: #71bd1a;
+}
+.course-page .course-header .course-header-content .left .content-wrapper .box-goal .goal.ok i {
+  font-size: 13px;
+}
+.course-page .course-header .course-header-content .left .content-wrapper .box-goal .goal.error {
+  float: left;
+  margin-right: 10px;
+  color: #d04613;
+}
+.course-page .course-header .course-header-content .left .content-wrapper .box-goal .goal.error i {
+  font-size: 11px;
+}
 .course-page .course-header .course-header-content .right {
   margin-left: 370px;
 }
