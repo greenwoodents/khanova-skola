@@ -8966,6 +8966,9 @@ fieldset[disabled] .btn-danger.active {
 .modal .modal-content .modal-body {
   text-align: left;
 }
+.modal .modal-content .modal-body .form-group {
+  margin-bottom: 20px;
+}
 .modal .modal-content .modal-body .close {
   position: absolute;
   top: 10px;
