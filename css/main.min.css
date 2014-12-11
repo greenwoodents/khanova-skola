@@ -6707,8 +6707,12 @@ button.close {
 .icon-zsv:before {
   content: "\e62d";
 }
-body {
+body,
+html {
   font-weight: 300;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
 }
 p {
   font-weight: 300;
@@ -7369,6 +7373,18 @@ a.header .header-content .dropdown .dropdown-menu .subjects-list ul li .text-dan
 .header .header-userarea .btn:focus {
   padding-left: 0;
   padding-right: 0;
+}
+.header .burger {
+  position: absolute;
+  right: 0;
+  top: 32px;
+  display: none;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .header .burger {
+    display: block;
+  }
 }
 .header.header-white-border {
   -webkit-transition: all 0.2s ease-in-out;
@@ -9364,6 +9380,117 @@ fieldset[disabled] .btn-danger.active {
 .progress-striped .progress-bar-danger {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.mobile-nav {
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+  position: absolute;
+  top: 0;
+  right: -286px;
+  bottom: -5px;
+  z-index: 123;
+  background: #ffffff;
+  box-shadow: -2px 2px 2px 0px rgba(38, 43, 55, 0.09), inset 0px -1px 0px 1px #d4e1e8;
+  padding-top: 25px;
+  width: 286px;
+}
+.mobile-nav.open {
+  right: 0;
+}
+.mobile-nav header {
+  height: 40px;
+  border-bottom: 1px dashed #959b9f;
+  padding-left: 30px;
+}
+.mobile-nav header a {
+  /* Přihlásit se: */
+  font-size: 16px;
+  color: #4a4a4a;
+  line-height: 19px;
+}
+.mobile-nav header a:hover,
+.mobile-nav header a:focus {
+  opacity: 0.7;
+  color: #171717;
+  text-decoration: none;
+}
+.mobile-nav .userarea {
+  margin-top: 15px;
+}
+.mobile-nav .userarea .user-info span {
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 30px;
+  margin-top: 13px;
+  display: block;
+}
+.mobile-nav .userarea .user-info .avatar {
+  padding-right: 24px;
+}
+.mobile-nav .userarea .user-menu ul {
+  margin-left: 30px;
+}
+.mobile-nav .userarea .user-menu ul a {
+  margin-bottom: 15px;
+  display: block;
+}
+.mobile-nav .userarea .user-menu ul a:before,
+.mobile-nav .userarea .user-menu ul a:after {
+  content: " ";
+  display: table;
+}
+.mobile-nav .userarea .user-menu ul a:after {
+  clear: both;
+}
+.mobile-nav .userarea .user-menu ul a:before,
+.mobile-nav .userarea .user-menu ul a:after {
+  content: " ";
+  display: table;
+}
+.mobile-nav .userarea .user-menu ul a:after {
+  clear: both;
+}
+.mobile-nav .userarea .user-menu ul a i {
+  float: left;
+  margin-right: 8px;
+}
+.mobile-nav .userarea .user-menu ul a span {
+  float: left;
+}
+.mobile-nav .subjects {
+  margin-top: 20px;
+}
+.mobile-nav .subjects .subject {
+  display: block;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.mobile-nav .subjects .subject span {
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+.mobile-nav .subjects .subject i {
+  font-size: 20px;
+  margin-left: 4px;
+  vertical-align: -10%;
+}
+.mobile-nav .subjects .subject i.icon-list {
+  font-size: 13px;
+  vartical-aling: -5%;
+}
+.mobile-nav .logged header {
+  padding-left: 10px;
+}
+.mobile-nav .logged header i {
+  vertical-align: -2%;
+  font-size: 16px;
+  margin-right: 3px;
+}
+.mobile-nav .logged .subjects {
+  border-top: 1px dashed #959b9f;
+  padding-top: 20px;
 }
 .landing-page .container {
   margin-left: 0;

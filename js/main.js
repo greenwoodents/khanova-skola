@@ -1,4 +1,21 @@
+//Open mobile nav (burger)
+$('.burger').on('click', function(){
+	$('.mobile-nav').toggleClass('open');
+	
+	return false;
+});
 
+$(document).click(function(e){
+    // Check
+    if( $(e.target).closest(".mobile-nav, .burger").length > 0 ) {
+        return false;
+    }
+
+    // Otherwise
+    if($('.mobile-nav').hasClass('open')){
+    	$('.mobile-nav').removeClass('open');
+    }
+});
 
 $('.ul-tab a').click(function (e) {
 	e.preventDefault();
