@@ -17,6 +17,7 @@ $(document).click(function(e){
     if(!$(e.target).closest(".header, .dropdown-big").length > 0 ) {
 		if($('.dropdown-big').hasClass('open')){
 			$('.dropdown-big').removeClass('open');
+			$('.header').removeClass('dropdown-open');
 		}
     }
 
