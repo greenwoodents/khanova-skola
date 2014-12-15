@@ -9019,6 +9019,8 @@ fieldset[disabled] .btn-danger.active {
 @media (max-width: 768px) {
   .modal-sign .modal-dialog {
     width: 95%;
+    max-width: 455px;
+    margin: 0 auto;
   }
 }
 .modal-sign .modal-body form {
