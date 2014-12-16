@@ -7466,6 +7466,27 @@ textarea.form-control {
   min-height: 150px;
   resize: none;
 }
+.floating-placeholder {
+  -webkit-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+}
+.floating-placeholder label {
+  -webkit-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+  position: absolute;
+  z-index: 12345;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+.floating-placeholder.float label {
+  bottom: 25px;
+  opacity: 1;
+}
 .has-addend {
   position: relative;
 }
@@ -9029,6 +9050,9 @@ fieldset[disabled] .btn-danger.active {
     margin: 0 auto;
   }
 }
+.modal-sign .modal-body h2 {
+  margin-top: 40px;
+}
 .modal-sign .modal-body form {
   width: 333px;
   margin: 0 auto;
@@ -9057,7 +9081,7 @@ fieldset[disabled] .btn-danger.active {
   width: 200px;
 }
 .modal-sign .modal-body form .checkbox {
-  margin-top: 30px;
+  margin-top: 25px;
   margin-left: 15px;
 }
 .modal-sign .modal-body form a {
@@ -9068,8 +9092,11 @@ fieldset[disabled] .btn-danger.active {
 .modal-sign .modal-body form .btn-submit {
   width: 115px;
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   margin-top: 20px;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
 }
 .modal-sign .modal-body form .form-group-password {
   margin-bottom: 10px;
@@ -9085,6 +9112,8 @@ fieldset[disabled] .btn-danger.active {
   margin: 0;
   font-weight: 300;
   font-size: 14px;
+  padding-left: 0;
+  padding-right: 0;
 }
 @media (max-width: 768px) {
   .modal-sign .modal-footer .btn {

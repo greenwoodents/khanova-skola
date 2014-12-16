@@ -62,6 +62,28 @@ $('.toggle-password').on('click', function(){
 });
 
 
+//Floating placeholders
+function initTricks() {
+	var labels = $('.floating-placeholder label');
+	labels.each(function(i) {
+		var ph = $(labels[i])
+			.siblings('input')
+			.first()
+			.attr('placeholder');
+		$(labels[i]).html(ph);
+	});
+}
+
+$(document).ready(function() {
+	$('.floating-placeholder input').keyup(function() {
+		var input = $(this).val();
+		if(input) $(this).parents('.floating-placeholder').first().addClass('float');
+		else $(this).parents('.floating-placeholder').first().removeClass('float');
+	});
+
+	initTricks();
+})
+
 
 
 

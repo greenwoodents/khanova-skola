@@ -38,19 +38,48 @@
 	}
 }
 
+.floating-placeholder {
+	.anim;
+	position: relative;
+	display: inline-block;
+	margin-top: 20px;
+}
+.floating-placeholder label {
+	.anim;
+	position: absolute;
+	z-index: 12345;
+	// line-height: 20px;
+	left: 0; 
+	bottom: 0;
+	opacity: 0;
+	pointer-events: none;
+}
+.floating-placeholder.float {
+	label {
+		bottom: 25px;
+		opacity: 1;
+	}
+}
+
+
 .has-addend {
 	position: relative;
 	.form-control {
 		padding-right: 26px;
 	}
+	.form-control:focus + .addend-icon {
+		color: @khan-black;
+	}
 }
 .addend-icon {
+	.anim;
 	position: absolute;
 	right: 0;
 	bottom: 5px;
 	font-size: 15px;
 	min-width: 20px;
 	text-align: center;
+	color: #959B9F;
 }
 
 label {
