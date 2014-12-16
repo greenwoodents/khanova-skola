@@ -7471,7 +7471,7 @@ textarea.form-control {
           transition: all 0.2s ease-in-out;
   position: relative;
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 .floating-placeholder label {
   -webkit-transition: all 0.2s ease-in-out;
@@ -9081,7 +9081,7 @@ fieldset[disabled] .btn-danger.active {
   width: 200px;
 }
 .modal-sign .modal-body form .checkbox {
-  margin-top: 25px;
+  margin-top: 20px;
   margin-left: 15px;
 }
 .modal-sign .modal-body form a {
@@ -9100,6 +9100,9 @@ fieldset[disabled] .btn-danger.active {
 }
 .modal-sign .modal-body form .form-group-password {
   margin-bottom: 10px;
+}
+.modal-sign .modal-body form .form-group-password.space-top {
+  margin-top: 25px;
 }
 @media (max-width: 768px) {
   .modal-sign .modal-footer {
