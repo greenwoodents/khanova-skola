@@ -9041,6 +9041,7 @@ fieldset[disabled] .btn-danger.active {
   border-bottom-right-radius: 3px;
 }
 .modal-sign .modal-dialog {
+  padding-top: 80px;
   width: 455px;
 }
 @media (max-width: 768px) {
@@ -9081,7 +9082,7 @@ fieldset[disabled] .btn-danger.active {
   width: 200px;
 }
 .modal-sign .modal-body form .checkbox {
-  margin-top: 20px;
+  margin-top: 17px;
   margin-left: 15px;
 }
 .modal-sign .modal-body form a {
