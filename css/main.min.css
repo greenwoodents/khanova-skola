@@ -7758,6 +7758,8 @@ label {
   color: #ffffff;
   padding-left: 40px;
   padding-right: 40px;
+  -webkit-transition: all 0.1s ease-out;
+          transition: all 0.1s ease-out;
 }
 .btn:hover,
 .btn:focus {
@@ -7785,12 +7787,12 @@ label {
 .btn.btn-primary {
   border-radius: 40px;
   background: #67A3C8;
-  box-shadow: 0 0 0 2px #67a3c8;
+  box-shadow: 0 0 0 2px #67a3c8 !important;
 }
 .btn.btn-primary:hover,
 .btn.btn-primary:focus {
   background: #62B5E9;
-  box-shadow: 0 0 0 2px #62b5e9;
+  box-shadow: 0 0 0 2px #62b5e9 !important;
   border-width: 2px;
   padding-left: 40px;
   padding-right: 40px;
@@ -10269,11 +10271,15 @@ fieldset[disabled] .btn-danger.active {
   height: 100%;
   width: 400px;
 }
+.course-page .course-header.course-video .course-header-content .left .icon-wrapper {
+  margin-top: 60px;
+}
 .course-page .course-header.course-video .course-header-content .left .icon-wrapper .icon {
   color: #000000;
 }
 .course-page .course-header.course-video .course-header-content .left .content-wrapper {
   width: 300px;
+  margin-top: 20px;
 }
 .course-page .course-header.course-video .course-header-content .left .content-wrapper small {
   color: #9baeb8;
@@ -10283,9 +10289,11 @@ fieldset[disabled] .btn-danger.active {
 }
 .course-page .course-header.course-video .course-header-content .left .content-wrapper h1 small {
   color: #ffffff;
+  margin-top: 10px;
 }
 .course-page .course-header.course-video .course-header-content .left .content-wrapper .idea {
   color: #9baeb8;
+  font-weight: 300;
 }
 .course-page .course-header.course-video .course-header-content .right {
   background: #141617;
@@ -10441,6 +10449,18 @@ fieldset[disabled] .btn-danger.active {
   line-height: 19px;
   color: #353d41;
 }
+.course-page .course-header.course-excercise .course-header-content .left .icon-wrapper {
+  margin-top: 35px;
+}
+.course-page .course-header.course-excercise .course-header-content .left .content-wrapper h1 {
+  margin-top: -5px;
+}
+.course-page .course-header.course-excercise .course-header-content .left .content-wrapper h1 small {
+  margin-top: 10px;
+}
+.course-page .course-header.course-excercise .course-header-content .left .content-wrapper .idea {
+  margin-top: 20px;
+}
 .course-page .course-header .course-header-content {
   background: #ffffff;
   position: relative;
@@ -10519,7 +10539,6 @@ fieldset[disabled] .btn-danger.active {
   line-height: 72px;
   margin: 0;
   margin-bottom: 10px;
-  margin-top: 10px;
 }
 .course-page .course-header .course-header-content .left .content-wrapper h1 span {
   display: block;
@@ -10825,8 +10844,11 @@ fieldset[disabled] .btn-danger.active {
   margin-left: 13px;
   line-height: 69px;
 }
+.course-page .discuss {
+  margin-bottom: 50px;
+}
 .course-page .discuss .discuss-inner {
-  width: 580px;
+  width: 530px;
   margin: 0 auto;
 }
 .course-page .discuss .discuss-inner form .pull-left,
@@ -10878,7 +10900,7 @@ fieldset[disabled] .btn-danger.active {
   margin-top: 5px;
 }
 .course-page .discuss .discuss-inner .comments .comment .right {
-  width: 450px;
+  width: 85%;
 }
 .course-page .discuss .discuss-inner .comments .comment .right .comment-header .author {
   font-weight: 300;
