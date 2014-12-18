@@ -46,8 +46,11 @@
 					display: none;
 				}
 				a {
-					&:hover {
+					&:hover,
+					&:focus {
 						text-decoration: none;
+						box-shadow: none;
+						outline: 0;
 					}
 				}
 			}

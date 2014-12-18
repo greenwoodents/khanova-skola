@@ -9623,8 +9623,11 @@ fieldset[disabled] .btn-danger.active {
     display: none;
   }
 }
-.landing-page .content .content-inner hgroup a:hover {
+.landing-page .content .content-inner hgroup a:hover,
+.landing-page .content .content-inner hgroup a:focus {
   text-decoration: none;
+  box-shadow: none;
+  outline: 0;
 }
 .landing-page .content .content-inner .hgroup-mobile {
   display: none;

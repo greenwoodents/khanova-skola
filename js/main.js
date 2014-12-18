@@ -42,6 +42,8 @@ $('.search-wrapper .btn-search').on('click', function(){
 	$searchInput.toggleClass('hidden');
 	$searchButton.toggleClass('hidden');
 
+	
+
 	$searchInput.find('input').focus();
 });
 
