@@ -7437,6 +7437,7 @@ a.header .header-content .dropdown .dropdown-menu .subjects-list ul li .text-dan
   border-bottom: 2px solid #959B9F;
   position: relative;
   font-size: 16px;
+  padding-left: 2px;
 }
 .form-control::-moz-placeholder {
   color: #959b9f;
