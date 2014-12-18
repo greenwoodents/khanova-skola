@@ -9453,6 +9453,11 @@ fieldset[disabled] .btn-danger.active {
   padding-top: 25px;
   width: 286px;
 }
+@media (min-width: 992px) {
+  .mobile-nav {
+    display: none;
+  }
+}
 .mobile-nav.open {
   right: 0;
 }
