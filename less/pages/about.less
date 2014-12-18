@@ -1,5 +1,6 @@
 .about-page {
 	.header {
+		.anim;
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -7,15 +8,22 @@
 		width: 100%;
 		z-index: 12;
 		.header-userarea {
+			.anim;
 			padding-top: 29px;
 			text-align: right;
 			margin-right: 65px;
 			border: 0;
 		}
+		.header-logo {
+			.anim;
+		}
+		.search-wrapper {
+			opacity: 1;
+		}
 	}
 	.header:not(:hover) {
 		background: transparent;
-		border: 0;
+		border-color: transparent;
 		.header-logo {
 			border: 0;
 			.logo {
@@ -31,17 +39,22 @@
 		.header-content {
 			.dropdown {
 				.dropdown-toggle {
+					.anim;
 					color: @white;
 				}
 				.caret {
+					.anim;
 					background-image: url(../img/dropdown-caret-white.svg); 
 				}
 			}
 			.search-wrapper {
-				display: none;
+				.anim;
+				// display: none;
+				opacity: 0;
 			}
 		}
 		.header-userarea {
+			.anim;
 			border: 0;
 			a {
 				color: @white;
