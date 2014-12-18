@@ -7249,8 +7249,8 @@ a.header .header-content .dropdown .dropdown-menu .subjects-list ul li .text-dan
 .header .header-content .search-box ul li a {
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   width: 100%;
   display: block;
 }
