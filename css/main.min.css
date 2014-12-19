@@ -9700,9 +9700,14 @@ fieldset[disabled] .btn-danger.active {
   font-size: 27px;
   vertical-align: 37%;
 }
+.landing-page .content .content-inner h3 .icon.icon-physics {
+  margin-right: 4px;
+}
 .landing-page .content .content-inner h4 {
   font-size: 21px;
   line-height: 23px;
+  margin-top: 22px;
+  display: block;
 }
 .landing-page .content .content-inner h4 a {
   font-size: 21px;
@@ -9789,10 +9794,13 @@ fieldset[disabled] .btn-danger.active {
 }
 .landing-page .landing-footer {
   font-family: 'frente_h1regular', Arial, sans-serif;
+  width: 100%;
   text-transform: uppercase;
-  margin-bottom: 40px;
-  margin-left: 50px;
+  padding-bottom: 65px;
   margin-top: 110px;
+  padding-top: 70px;
+  text-align: center;
+  background: rgba(212, 225, 232, 0.13);
 }
 @media (max-width: 768px) {
   .landing-page .landing-footer {
@@ -9825,6 +9833,11 @@ fieldset[disabled] .btn-danger.active {
   font-size: 22px;
   line-height: 37px;
   margin-right: 10px;
+  margin-top: 5px;
+  display: inline-block;
+}
+.landing-page .landing-footer a:first-of-type {
+  margin-left: -22px;
 }
 .landing-page .landing-footer a:hover {
   text-decoration: none;
