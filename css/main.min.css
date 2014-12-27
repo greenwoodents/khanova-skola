@@ -10081,6 +10081,11 @@ fieldset[disabled] .btn-danger.active {
       -ms-transform: rotate(45deg);
           transform: rotate(45deg);
 }
+.scheme-page .content .content-inner .btn:hover,
+.scheme-page .content .content-inner .btn:focus {
+  padding-left: 40px;
+  padding-right: 40px;
+}
 .scheme-page .content .content-inner .icon {
   font-size: 60px;
   margin-top: 45px;
