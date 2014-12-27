@@ -9361,6 +9361,7 @@ fieldset[disabled] .btn-danger.active {
   font-size: 13px;
   color: #9baeb8;
   margin-right: 3px;
+  margin-top: 3px;
 }
 .timeline .timeline-item .timeline-content h3 small span {
   font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
@@ -11573,7 +11574,7 @@ fieldset[disabled] .btn-danger.active {
   }
 }
 .block-page .content .right .right-inner {
-  padding: 60px;
+  padding: 54px;
 }
 @media (max-width: 768px) {
   .block-page .content .right .right-inner {
