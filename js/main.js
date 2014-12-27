@@ -28,7 +28,7 @@ $('.ul-tab a').click(function (e) {
 	$(this).tab('show');
 });
 
-$('.dropdown-big .dropdown-toggle').on('click', function(){
+$('.dropdown-big .dropdown-toggle').on('mouseover', function(){
 	var $dropdown = $(this).parents('.dropdown').first();
 	$dropdown.toggleClass('open');
 	$('.header').toggleClass('dropdown-open');
