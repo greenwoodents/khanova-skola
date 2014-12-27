@@ -10360,7 +10360,7 @@ fieldset[disabled] .btn-danger.active {
   margin-right: 10px;
 }
 .course-page .course-header {
-  margin-bottom: 90px;
+  margin-bottom: 40px;
 }
 .course-page .course-header.course-video .course-header-content {
   position: relative;
@@ -10953,6 +10953,107 @@ fieldset[disabled] .btn-danger.active {
   margin-left: 13px;
   line-height: 69px;
 }
+.course-page .course-footer-wrapper {
+  position: relative;
+}
+.course-page .recommended {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  z-index: 12;
+  width: 275px;
+}
+@media (max-width: 1150px) {
+  .course-page .recommended {
+    display: none;
+  }
+}
+.course-page .recommended h2 {
+  font-size: 24px;
+  color: #4a4a4a;
+  line-height: 27px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.course-page .recommended .course {
+  margin-bottom: 20px;
+}
+.course-page .recommended .course:before,
+.course-page .recommended .course:after {
+  content: " ";
+  display: table;
+}
+.course-page .recommended .course:after {
+  clear: both;
+}
+.course-page .recommended .course:before,
+.course-page .recommended .course:after {
+  content: " ";
+  display: table;
+}
+.course-page .recommended .course:after {
+  clear: both;
+}
+.course-page .recommended .course.course-video .video-preview {
+  float: left;
+  width: 80px;
+  height: 60px;
+  overflow: hidden;
+}
+.course-page .recommended .course.course-video .video-preview img {
+  max-width: 100%;
+  min-height: 60px;
+  min-width: 80px;
+}
+.course-page .recommended .course.course-video .inner {
+  width: 170px;
+  margin-top: -3px;
+}
+.course-page .recommended .course.course-video .inner h3 {
+  max-width: 140px;
+}
+.course-page .recommended .course .icon-box {
+  float: left;
+  width: 33px;
+  height: 33px;
+  background: #9baeb8;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 15px;
+}
+.course-page .recommended .course .icon-box .icon {
+  color: #ffffff;
+  line-height: 33px;
+  font-size: 11px;
+}
+.course-page .recommended .course .inner {
+  float: left;
+  margin-left: 11px;
+  width: 230px;
+}
+.course-page .recommended .course .inner small {
+  font-weight: 300;
+  font-size: 11px;
+  color: #9baeb8;
+  line-height: 16px;
+}
+.course-page .recommended .course .inner h3 {
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #0a82cc;
+  line-height: 19px;
+  margin-top: 0;
+  margin-bottom: 3px;
+  text-transform: none;
+}
+.course-page .recommended .course .inner p {
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 0;
+}
 .course-page .discuss {
   margin-bottom: 50px;
 }
@@ -10965,9 +11066,13 @@ fieldset[disabled] .btn-danger.active {
   width: 43.3%;
 }
 .course-page .discuss .discuss-inner form .btn {
-  text-align: right;
+  float: right;
+  text-align: center;
   margin-right: 0;
   margin-top: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 210px;
 }
 .course-page .discuss .discuss-inner form .help {
   margin-top: 5px;

@@ -1,6 +1,6 @@
 .course-page {
 	.course-header {
-		margin-bottom: 90px;
+		margin-bottom: 40px;
 		&.course-video {
 			.course-header-content {
 				position: relative;
@@ -513,6 +513,92 @@
 			}
 		}
 	}
+	.course-footer-wrapper {
+		position: relative;
+	}
+	.recommended {
+		position: absolute;
+		right: 25px;
+		top: 0;
+		z-index: 12;
+		width: 275px;
+		@media (max-width: 1150px) {
+			display: none;
+		}
+		h2 {
+			font-size: 24px;
+			color: @khan-black;
+			line-height: 27px;
+			text-align: center;
+			margin-bottom: 15px;
+		}
+		.course {
+			.clearfix;
+			margin-bottom: 20px;
+			&.course-video {
+				.video-preview {
+					float: left;
+					width: 80px;
+					height: 60px;
+					overflow: hidden;
+					img {
+						max-width: 100%;
+						min-height: 60px;
+						min-width: 80px;
+					}
+				}
+				.inner {
+					width: 170px;
+					margin-top: -3px;
+					h3 {
+						max-width: 140px;
+					}
+				}
+			}
+			.icon-box {
+				float: left;
+				width: 33px;
+				height: 33px;
+				background: @khan-blue-light;
+				border-radius: 50%;
+				text-align: center;
+				margin-top: 15px;
+				.icon {
+					color: @white;
+					line-height: 33px;
+					font-size: 11px;
+				}
+			}
+			.inner {
+				float: left;
+				margin-left: 11px;
+				width: 230px;
+				small {
+					font-weight: @font-weight-light;
+					font-size: 11px;
+					color: @khan-blue-light;
+					line-height: 16px;
+				}
+				h3 {
+					font-family: @font-family-base;
+					font-weight: @font-weight-light;
+					font-size: 16px;
+					color: @khan-blue;
+					line-height: 19px;
+					margin-top: 0;
+					margin-bottom: 3px;
+					text-transform: none;
+				}
+				p {
+					font-family: @font-family-base;
+					font-weight: @font-weight-light;
+					font-size: 14px;
+					line-height: 21px;
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
 	.discuss {
 		margin-bottom: 50px;
 		.discuss-inner {
@@ -524,9 +610,17 @@
 					width: 43.3%;
 				}
 				.btn {
-					text-align: right;
+					float: right;
+					text-align: center;
 					margin-right: 0;
 					margin-top: 5px;
+					padding-left: 0px;
+					padding-right: 0px;
+					width: 210px;
+					&:hover {
+						// padding-left: 40px;
+						// padding-right: 40px;
+					}
 				}
 				.help {
 					margin-top: 5px;
