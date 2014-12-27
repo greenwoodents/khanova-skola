@@ -206,8 +206,12 @@
 				.subjects {
 					ul {
 						li {
-							margin-bottom: 5px;
+							margin-bottom: 8px;
 							a {
+								&:hover, 
+								&:focus {
+									text-decoration: none;
+								}
 								.icon {
 									margin-left: 8px;
 								}
@@ -215,19 +219,39 @@
 						}
 					}
 				}
+				.small-menu {
+					.clearfix;
+					li {
+						float: left;
+						margin-right: 33px;
+					}
+				}
 				.info {
 					p {
 						margin-top: 11px; 
 						text-align: left;
+						font-family: @font-family-base;
+						font-weight: @font-weight-light;
+						font-size: 14px;
+						line-height: 21px;
+						word-break: normal;
 					}
 					.globe {
 						padding-right: 0;
 						strong {
 							color: @khan-blue-light;
 							font-weight: @font-weight-light;
+							span {
+								font-style: italic;
+							}
 						}
 						p {
 							color: @khan-blue-light;
+							font-family: @font-family-base;
+							font-weight: @font-weight-light;
+							font-style: italic;
+							font-size: 14px;
+							line-height: 21px;
 						}
 					}
 				}
@@ -251,7 +275,9 @@
 					margin-top: 20px;
 					margin-bottom: 40px;
 					a {
-						&:hover {
+						margin-right: 3px;
+						&:hover,
+						&:focus {
 							opacity: .6;
 						}
 					}
