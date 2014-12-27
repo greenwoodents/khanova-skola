@@ -9953,12 +9953,13 @@ fieldset[disabled] .btn-danger.active {
 }
 .subjects-page .content h2 {
   margin-top: 30px;
+  font-size: 48px;
 }
 .subjects-page .content .subjects {
   width: 500px;
   margin: 0 auto;
   margin-top: 60px;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 .subjects-page .content .subjects:before,
 .subjects-page .content .subjects:after {
@@ -10007,6 +10008,31 @@ fieldset[disabled] .btn-danger.active {
 .subjects-page .content .subjects .subject .icon {
   display: block;
   font-size: 43px;
+  height: 43px;
+}
+.subjects-page .content .subjects .subject .icon.icon-math {
+  font-size: 43px;
+}
+.subjects-page .content .subjects .subject .icon.icon-physics {
+  font-size: 43px;
+}
+.subjects-page .content .subjects .subject .icon.icon-chemistry {
+  font-size: 42px;
+}
+.subjects-page .content .subjects .subject .icon.icon-natural-studies {
+  font-size: 42px;
+}
+.subjects-page .content .subjects .subject .icon.icon-it {
+  font-size: 34px;
+}
+.subjects-page .content .subjects .subject .icon.icon-history {
+  font-size: 42px;
+}
+.subjects-page .content .subjects .subject .icon.icon-zsv {
+  font-size: 41px;
+}
+.subjects-page .content .subjects .subject .icon.icon-art-history {
+  font-size: 42px;
 }
 .subjects-page .content .subjects .subject span {
   display: block;
