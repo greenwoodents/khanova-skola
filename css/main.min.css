@@ -6779,10 +6779,10 @@ a.text-green:hover {
   color: #3b630e;
 }
 .text-cyan {
-  color: #8fe7e9;
+  color: #3dbcb2;
 }
 a.text-cyan:hover {
-  color: #3ad5d8;
+  color: #246f69;
 }
 .text-cyan-dark {
   color: #54cfcb;
@@ -6805,10 +6805,10 @@ a.text-gold:hover {
   color: #885503;
 }
 .text-purple {
-  color: #c46fca;
+  color: #c268c8;
 }
 a.text-purple:hover {
-  color: #94399a;
+  color: #8e3694;
 }
 .text-brown {
   color: #f1982a;
@@ -7130,10 +7130,10 @@ a.header .header-content .dropdown .dropdown-menu .subjects-list ul li .text-gre
   color: #3b630e;
 }
 .header .header-content .dropdown .dropdown-menu .subjects-list ul li .text-cyan {
-  color: #8fe7e9;
+  color: #3dbcb2;
 }
 a.header .header-content .dropdown .dropdown-menu .subjects-list ul li .text-cyan:hover {
-  color: #3ad5d8;
+  color: #246f69;
 }
 .header .header-content .dropdown .dropdown-menu .subjects-list ul li .text-cyan-dark {
   color: #54cfcb;
@@ -7156,10 +7156,10 @@ a.header .header-content .dropdown .dropdown-menu .subjects-list ul li .text-gol
   color: #885503;
 }
 .header .header-content .dropdown .dropdown-menu .subjects-list ul li .text-purple {
-  color: #c46fca;
+  color: #c268c8;
 }
 a.header .header-content .dropdown .dropdown-menu .subjects-list ul li .text-purple:hover {
-  color: #94399a;
+  color: #8e3694;
 }
 .header .header-content .dropdown .dropdown-menu .subjects-list ul li .text-brown {
   color: #f1982a;
@@ -8197,11 +8197,11 @@ fieldset[disabled] .btn-green.active {
   background-color: #ffffff;
 }
 .btn-cyan {
-  border-color: #8fe7e9;
+  border-color: #3dbcb2;
   color: #ffffff;
-  background-color: #8fe7e9;
+  background-color: #3dbcb2;
   border: 2px solid #ffffff;
-  box-shadow: 0 0 0 2px #8fe7e9 !important;
+  box-shadow: 0 0 0 2px #3dbcb2 !important;
 }
 .btn-cyan:hover,
 .btn-cyan:focus,
@@ -8210,8 +8210,8 @@ fieldset[disabled] .btn-green.active {
 .btn-cyan.active,
 .open > .dropdown-toggle.btn-cyan {
   color: #ffffff;
-  background-color: #64dee1;
-  border-color: #5cdcdf;
+  background-color: #31958e;
+  border-color: #2e8e86;
 }
 .btn-cyan:active,
 .btn-cyan.active,
@@ -8236,11 +8236,11 @@ fieldset[disabled] .btn-cyan:active,
 .btn-cyan.disabled.active,
 .btn-cyan[disabled].active,
 fieldset[disabled] .btn-cyan.active {
-  background-color: #8fe7e9;
-  border-color: #8fe7e9;
+  background-color: #3dbcb2;
+  border-color: #3dbcb2;
 }
 .btn-cyan .badge {
-  color: #8fe7e9;
+  color: #3dbcb2;
   background-color: #ffffff;
 }
 .btn-cyan:hover,
@@ -8250,9 +8250,9 @@ fieldset[disabled] .btn-cyan.active {
 .btn-cyan.active,
 .open > .dropdown-toggle.btn-cyan {
   color: #ffffff;
-  background-color: #64dee1;
+  background-color: #31958e;
   border-color: #ffffff;
-  box-shadow: 0 0 0 3px #5cdcdf;
+  box-shadow: 0 0 0 3px #2e8e86;
 }
 .btn-cyan:active,
 .btn-cyan.active,
@@ -8277,12 +8277,12 @@ fieldset[disabled] .btn-cyan:active,
 .btn-cyan.disabled.active,
 .btn-cyan[disabled].active,
 fieldset[disabled] .btn-cyan.active {
-  background-color: #8fe7e9;
+  background-color: #3dbcb2;
   border-color: #ffffff;
-  box-shadow: 0 0 0 3px #8fe7e9;
+  box-shadow: 0 0 0 3px #3dbcb2;
 }
 .btn-cyan .badge {
-  color: #8fe7e9;
+  color: #3dbcb2;
   background-color: #ffffff;
 }
 .btn-cyan-dark {
@@ -8610,11 +8610,11 @@ fieldset[disabled] .btn-gold.active {
   background-color: #ffffff;
 }
 .btn-purple {
-  border-color: #c46fca;
+  border-color: #c268c8;
   color: #ffffff;
-  background-color: #c46fca;
+  background-color: #c268c8;
   border: 2px solid #ffffff;
-  box-shadow: 0 0 0 2px #c46fca !important;
+  box-shadow: 0 0 0 2px #c268c8 !important;
 }
 .btn-purple:hover,
 .btn-purple:focus,
@@ -8623,8 +8623,8 @@ fieldset[disabled] .btn-gold.active {
 .btn-purple.active,
 .open > .dropdown-toggle.btn-purple {
   color: #ffffff;
-  background-color: #b54abc;
-  border-color: #b044b8;
+  background-color: #b244b9;
+  border-color: #ab41b2;
 }
 .btn-purple:active,
 .btn-purple.active,
@@ -8649,11 +8649,11 @@ fieldset[disabled] .btn-purple:active,
 .btn-purple.disabled.active,
 .btn-purple[disabled].active,
 fieldset[disabled] .btn-purple.active {
-  background-color: #c46fca;
-  border-color: #c46fca;
+  background-color: #c268c8;
+  border-color: #c268c8;
 }
 .btn-purple .badge {
-  color: #c46fca;
+  color: #c268c8;
   background-color: #ffffff;
 }
 .btn-purple:hover,
@@ -8663,9 +8663,9 @@ fieldset[disabled] .btn-purple.active {
 .btn-purple.active,
 .open > .dropdown-toggle.btn-purple {
   color: #ffffff;
-  background-color: #b54abc;
+  background-color: #b244b9;
   border-color: #ffffff;
-  box-shadow: 0 0 0 3px #b044b8;
+  box-shadow: 0 0 0 3px #ab41b2;
 }
 .btn-purple:active,
 .btn-purple.active,
@@ -8690,12 +8690,12 @@ fieldset[disabled] .btn-purple:active,
 .btn-purple.disabled.active,
 .btn-purple[disabled].active,
 fieldset[disabled] .btn-purple.active {
-  background-color: #c46fca;
+  background-color: #c268c8;
   border-color: #ffffff;
-  box-shadow: 0 0 0 3px #c46fca;
+  box-shadow: 0 0 0 3px #c268c8;
 }
 .btn-purple .badge {
-  color: #c46fca;
+  color: #c268c8;
   background-color: #ffffff;
 }
 .btn-brown {
@@ -9389,7 +9389,7 @@ fieldset[disabled] .btn-danger.active {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .progress-bar-cyan {
-  background-color: #8fe7e9;
+  background-color: #3dbcb2;
 }
 .progress-striped .progress-bar-cyan {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -9419,7 +9419,7 @@ fieldset[disabled] .btn-danger.active {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .progress-bar-purple {
-  background-color: #c46fca;
+  background-color: #c268c8;
 }
 .progress-striped .progress-bar-purple {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
