@@ -6756,6 +6756,10 @@ a {
   color: #0a82cc;
   line-height: 19px;
 }
+a:hover,
+a:focus {
+  color: #000000;
+}
 .text-black {
   color: #4a4a4a;
 }
@@ -6929,7 +6933,7 @@ mark {
 .header .header-goback {
   width: auto;
   min-width: 150px;
-  padding-top: 28px;
+  padding-top: 31px;
   padding-right: 35px;
 }
 .header .header-goback a {
@@ -6968,6 +6972,15 @@ mark {
   display: block;
   padding-left: 30px;
   margin-right: 30px;
+}
+.header .header-content .dropdown .dropdown-toggle:hover,
+.header .header-content .dropdown .dropdown-toggle:focus {
+  text-decoration: none;
+  color: #000000;
+}
+.header .header-content .dropdown .dropdown-toggle .caret {
+  margin-left: 5px;
+  margin-top: 3px;
 }
 .header .header-content .dropdown .dropdown-menu {
   width: 850px;
@@ -7010,6 +7023,7 @@ mark {
 }
 .header .header-content .dropdown .dropdown-menu .subjects-list ul {
   padding-left: 30px;
+  margin-bottom: 15px;
 }
 @media (max-width: 768px) {
   .header .header-content .dropdown .dropdown-menu .subjects-list ul {
@@ -7032,6 +7046,9 @@ mark {
     clear: both;
   }
 }
+.header .header-content .dropdown .dropdown-menu .subjects-list ul li {
+  margin-bottom: 2px;
+}
 @media (max-width: 768px) {
   .header .header-content .dropdown .dropdown-menu .subjects-list ul li {
     float: left;
@@ -7041,6 +7058,8 @@ mark {
 .header .header-content .dropdown .dropdown-menu .subjects-list ul li.divider {
   background-color: #353d41;
   width: 170px;
+  margin-bottom: 8px;
+  margin-top: 10px;
 }
 @media (max-width: 768px) {
   .header .header-content .dropdown .dropdown-menu .subjects-list ul li.divider {
@@ -7106,6 +7125,9 @@ mark {
 .header .header-content .dropdown .dropdown-menu .subjects-list ul li a .icon.icon-it {
   font-size: 12px;
   vertical-align: 0;
+}
+.header .header-content .dropdown .dropdown-menu .subjects-list ul li a .icon.icon-list {
+  font-size: 13px;
 }
 .header .header-content .dropdown .dropdown-menu .subjects-list ul li .text-black {
   color: #4a4a4a;
@@ -7195,6 +7217,20 @@ a.header .header-content .dropdown .dropdown-menu .subjects-list ul li .text-dan
   color: #0a82cc;
   line-height: 16px;
   text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.header .header-content .dropdown .dropdown-menu .subject-detail ul li {
+  font-weight: 300;
+  font-size: 16px;
+  color: #4a4a4a;
+  line-height: 24px;
+  margin-bottom: 6px;
+}
+.header .header-content .dropdown .dropdown-menu .subject-detail ul li a {
+  font-weight: 300;
+  font-size: 16px;
+  color: #4a4a4a;
+  line-height: 24px;
 }
 @media (max-width: 768px) {
   .header .header-content .search-input {
@@ -8962,7 +8998,7 @@ fieldset[disabled] .btn-danger.active {
   display: none;
 }
 .dropdown.dropdown-big .dropdown-menu {
-  margin-top: 35px;
+  margin-top: 33px;
   margin-left: -2px;
   border-radius: 0;
   border-top: 0;
@@ -10598,6 +10634,11 @@ fieldset[disabled] .btn-danger.active {
   margin-bottom: 30px;
   margin-top: 35px;
   padding-bottom: 20px;
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 19px;
 }
 .course-page .course-header .course-header-content .left .content-wrapper .idea:before,
 .course-page .course-header .course-header-content .left .content-wrapper .idea:after {
@@ -11400,7 +11441,7 @@ fieldset[disabled] .btn-danger.active {
 .block-page .content .left .icon-wrapper {
   float: left;
   margin-left: 40px;
-  margin-top: 62px;
+  margin-top: 63px;
   width: 35px;
 }
 @media (max-width: 768px) {
@@ -11409,7 +11450,7 @@ fieldset[disabled] .btn-danger.active {
   }
 }
 .block-page .content .left .icon-wrapper i {
-  font-size: 25px;
+  font-size: 28px;
 }
 .block-page .content .left .content-wrapper {
   float: left;
@@ -11425,13 +11466,14 @@ fieldset[disabled] .btn-danger.active {
 }
 .block-page .content .left .content-wrapper h2 {
   margin: 0;
+  font-size: 48px;
 }
 .block-page .content .left .content-wrapper p {
   font-weight: 300;
   font-size: 16px;
   color: #353d41;
-  line-height: 19px;
-  margin-top: 15px;
+  line-height: 21px;
+  margin-top: 10px;
 }
 .block-page .content .left .content-wrapper .time {
   color: #4781a5;
