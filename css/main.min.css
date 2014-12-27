@@ -11384,12 +11384,12 @@ fieldset[disabled] .btn-danger.active {
   }
 }
 .signout-page .content-inner {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .signout-page .content-inner .box {
   background: url(../img/signout-page-bg.svg) no-repeat;
-  width: 435px;
-  height: 420px;
+  width: 440px;
+  height: 345px;
   display: block;
   margin: 0 auto;
   margin-top: 20px;
@@ -11404,7 +11404,7 @@ fieldset[disabled] .btn-danger.active {
 }
 .signout-page .content-inner .box h1 {
   text-align: center;
-  padding-top: 25px;
+  padding-top: 10px;
   font-size: 48px;
   line-height: 72px;
 }
@@ -11412,6 +11412,7 @@ fieldset[disabled] .btn-danger.active {
   display: block;
   font-size: 21px;
   line-height: 23px;
+  margin-top: 6px;
 }
 .signout-page .content-inner .back-to {
   display: block;
