@@ -7109,9 +7109,6 @@ mark {
 .header .header-content .dropdown .dropdown-menu .subjects-list ul li a:hover {
   text-decoration: none;
 }
-.header .header-content .dropdown .dropdown-menu .subjects-list ul li a:hover span {
-  text-decoration: underline;
-}
 .header .header-content .dropdown .dropdown-menu .subjects-list ul li a .icon {
   font-size: 20px;
   vertical-align: -10%;
