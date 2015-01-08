@@ -9614,6 +9614,8 @@ fieldset[disabled] .btn-danger.active {
 @media (min-width: 1200px) {
   .landing-page .container {
     padding-left: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .landing-page .content {
