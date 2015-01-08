@@ -11238,6 +11238,11 @@ fieldset[disabled] .btn-danger.active {
     width: 300px;
   }
 }
+@media (min-width: 1200px) {
+  .about-page .content .hero .hero-content .hero-content-inner {
+    margin-top: 268px;
+  }
+}
 .about-page .content .hero .hero-content .hero-content-inner h1 {
   position: relative;
   margin: 0;
@@ -11287,6 +11292,9 @@ fieldset[disabled] .btn-danger.active {
 .about-page .content .hero .hero-bg {
   width: 100%;
   overflow: hidden;
+}
+.about-page .content .hero .hero-bg img {
+  min-width: 100%;
 }
 .about-page .content .content-inner {
   width: 630px;
